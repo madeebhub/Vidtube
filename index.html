@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header flex justify">
+                <div class="left flex">
+                    <img src="menu.png" alt="" class="icon" id="menu">
+                    <img src="logo.png" alt="" class="logoimg">
+                </div>
+                <div class="mid flex">
+                    <div class="searchbox flex justify">
+                        <input type="text" name="search" id="search" placeholder="Search" class="input">
+                        <img src="voice-search.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="right flex">
+                    <img src="upload.png" alt="" class="icon">
+                    <img src="more.png" alt="" class="icon">
+                    <img src="notification.png" alt="" class="icon">
+                </div>
+                <h2>Gemini Chatbot</h2>
+                <div id="chat"></div>
+                <input type="text" id="userInput" placeholder="Type your message..." style="width: 80%;">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="sidebar" id="sidebarbox">
+                <a href="#" class="flex"><img src="home.png" alt="" class="links">
+                    <p>Home</p>
+                </a>
+                <a href="#" class="flex"><img src="explore.png" alt="" class="links">
+                    <p>Explore</p>
+                </a>
+                <a href="#" class="flex"><img src="library.png" alt="" class="links">
+                    <p>Library</p>
+                </a>
+                <a href="#" class="flex"><img src="history.png" alt="" class="links">
+                    <p>History</p>
+                </a>
+                <a href="#" class="flex"><img src="playlist.png" alt="" class="links">
+                    <p>Playlist</p>
+                </a>
+                <a href="#" class="flex"><img src="messages.png" alt="" class="links">
+                    <p>Messages</p>
+                </a>
+                <a href="#" class="flex"><img src="more.png" alt="" class="links">
+                    <p>Show More</p>
+                </a>
+                <hr>
+                <h3>subscribed</h3>
+                <a href="#" class="flex"><img src="cameron.png" alt="" class="profile">
+                    <p>Camron</p>
+                </a>
+                <a href="#" class="flex"><img src="simon.png" alt="" class="profile">
+                    <p>Simon</p>
+                </a>
+                <a href="#" class="flex"><img src="gerard.png" alt="" class="profile">
+                    <p>Gerard</p>
+                </a>
+                <a href="#" class="flex"><img src="tom.png" alt="" class="profile">
+                    <p>Tom</p>
+                </a>
+                <a href="#" class="flex"><img src="megan.png" alt="" class="profile">
+                    <p>Megan</p>
+                </a>
+            </aside>
+            <div class="videobox" id="vidbox">
+                <div class="banner">
+                    <img src="banner.png" alt="" class="bannerimg">
+                </div>
+                <div class="videos">
+                    <div class="colum">
+                        <img src="thumbnail6.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail1.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail2.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail3.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail4.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail5.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail7.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail1.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail2.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail6.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                    <div class="colum">
+                        <img src="thumbnail8.png" alt="" class="videoimg">
+                        <p class="title">Car racing challange 1 to 1 will be on monday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="index.js"></script>
+
+</html>
